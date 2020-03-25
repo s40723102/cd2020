@@ -14,13 +14,34 @@
 <p>cmsimde 的開發採用 Leo Editor, 開啟 cmsimde 目錄中的 cmsimde.leo 就可以進行程式修改, 結束後, 若要保留網際內容, 只要將 cmsimde 外部的內容倒回 up_dir 目錄中即可後續對 cmsimde 遠端倉儲進行改版.</p>
 <p>init.py 位於  up_dir 目錄, 可以設定 site_title 與 uwsgi 等變數.</p>
 <h1>week1</h1>
-<p>創建新倉儲cd2020</p>
+<p>創建新倉儲<span style="color: #ff6600;">cd2020</span></p>
 <p>步驟:</p>
 <ol>
-<li><span>登入自己<a href="https://github.com/">gihub</a> 建立新的<span>倉儲</span>cd2020</span></li>
+<li><span>登入自己<a href="https://github.com/">gihub</a> 建立新的<span>倉儲</span><span style="color: #ff6600;">cd2020</span></span></li>
 <li>接著執行git clone <a href="https://github.com/s40723102/cd2020.git">https://github.com/s40723102/cd2020.git</a> (自己的網址)</li>
 <li>執行git submodule add <a href="https://github.com/mdecourse/cmsimde.git%E5%8F%96%E5%BE%97%E5%AD%90%E6%A8%A1%E7%B5%84%E8%B3%87%E6%96%99">https://github.com/mdecourse/cmsimde.git</a> 取得子模組資料</li>
 <li><span>將cmsimde&gt;up_dir裡的所有項目全部複製到外面資料夾cd2020中</span></li>
 <li><span>接著就能執行python wsgi.py編輯靜態網站</span></li>
 </ol>
+<h1>week2</h1>
+<p><span style="color: #000000;"><strong>更新可攜裝置中的Python的版本更新至3.8.2</strong></span></p>
+<p><span style="color: #000000;">1.到Python的官方網站<span style="color: #3366ff;"><a href="https://www.python.org/downloads/windows/" style="color: #3366ff;">https://www.python.org/downloads/windows/</a></span></span></p>
+<p><span style="color: #000000;">2.把<span style="color: #3366ff;"><a href="https://www.python.org/ftp/python/3.8.2/python-3.8.2-amd64.exe" style="color: #3366ff;">Windows x86-64 executable installer</a></span>安裝至自己可攜系統(把pip的選項去掉)</span></p>
+<p><span style="color: #000000;"><img caption="false" height="245" src="/images/ApplicationFrameHost_PnN5fp6MTR.png" width="400"/><img caption="false" height="244" src="/images/ApplicationFrameHost_M27olqiFij.png" width="400"/></span></p>
+<p><span style="color: #000000;">3.使用批次檔更改開始路徑，使用Scite.exe 編輯器將原本的py373更改成新的3.8.2版本的路徑</span></p>
+<p><span style="color: #000000;">4.執行get-pip.py(取得安裝管理工具)</span></p>
+<p><span style="color: #000000;"><img alt="" height="244" src="/images/explorer_3uD7To2ZQF.png" width="411"/></span></p>
+<p><span style="color: #000000;">5.執行pip install指令</span></p>
+<p><span style="color: #000000;">將</span></p>
+<p><span style="color: #ff6600;"><strong>pip install Flask</strong></span></p>
+<p><span style="color: #ff6600;"><strong>pip install Markdown</strong></span></p>
+<p><span style="color: #ff6600;"><strong>pip install lxml</strong></span></p>
+<p><span style="color: #ff6600;"><strong>pip install bs4</strong></span></p>
+<p><span style="color: #ff6600;"><strong>pip install flask_cors</strong></span></p>
+<p><span style="color: #ff6600;"><strong>pip install pelican</strong></span></p>
+<p><span style="color: #ff6600;"><strong>pip install leo</strong></span></p>
+<p><span style="color: #000000;">將這些3.8.2版本缺少的模組依序安裝下來</span></p>
+<p><span style="color: #ff6600;"><strong><img alt="" height="228" src="/images/cmd_2EUYM7KPWi.png" width="436"/></strong></span></p>
+<p><span style="color: #000000;">6.完成</span></p>
+<p><span style="color: #000000;">參考組員:<span style="color: #0000ff;"><a href="https://s40723111.github.io/cd2020/content/week2.html" style="color: #0000ff;">40723111</a></span></span></p>
 <p></p>
