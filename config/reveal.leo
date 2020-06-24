@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by Leo: http://leoeditor.com/leo_toc.html -->
 <leo_file xmlns:leo="http://leoeditor.com/namespaces/leo-python-editor/1.1" >
-<leo_header file_format="2" tnodes="0" max_tnode_index="0" clone_windows="0"/>
-<globals body_outline_ratio="0.5" body_secondary_ratio="0.5">
-	<global_window_position top="50" left="50" height="500" width="700"/>
-	<global_log_window_position top="0" left="0" height="0" width="0"/>
-</globals>
+<leo_header file_format="2"/>
+<globals/>
 <preferences/>
 <find_panel_settings/>
 <vnodes>
@@ -13,28 +10,74 @@
 <v t="leo.20180902120538.2"><vh>@data qt-gui-plugin-style-sheet</vh></v>
 <v t="leo.20180902120538.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
-<v t="leo.20180902120523.1" a="E"><vh>編輯 reveal</vh>
-<v t="leo.20180902120523.2" a="E"><vh>@path ./../reveal</vh>
-<v t="leo.20180902120523.3" a="E"><vh>@clean index.html</vh>
-<v t="leo.20180902120523.4" a="E"><vh>html</vh>
+<v t="leo.20180902120523.1"><vh>編輯 reveal</vh>
+<v t="leo.20180902120523.2"><vh>@path ./../reveal</vh>
+<v t="leo.20180902120523.3"><vh>@clean index.html</vh>
+<v t="leo.20180902120523.4"><vh>html</vh>
 <v t="leo.20180902120523.5"><vh>head</vh></v>
-<v t="leo.20180902120523.6" a="E"><vh>body</vh>
-<v t="leo.20180902120523.7" a="E"><vh>reveal div</vh>
-<v t="leo.20180902120523.8" a="E"><vh>slides div</vh>
-<v t="leo.20180902120523.9" a="E"><vh>封面投影片</vh>
-<v t="leo.20180902120523.10"><vh>封面投影片內容</vh></v>
+<v t="leo.20180902120523.6"><vh>body</vh>
+<v t="leo.20180902120523.7"><vh>reveal div</vh>
+<v t="leo.20180902120523.8"><vh>slides div</vh>
+<v t="leo.20200624092011.1"><vh>封面投影片</vh>
+<v t="leo.20200624092011.2"><vh>內容</vh></v>
 </v>
-<v t="leo.20180902120523.11" a="E"><vh>快捷鍵</vh>
+<v t="leo.20200624094226.1"><vh>封面投影片</vh>
+<v t="leo.20200624094226.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624103814.1"><vh>期中前</vh>
+<v t="leo.20200624103814.2"><vh>W1</vh>
+<v t="leo.20200624103814.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624103814.4"><vh>w2</vh>
+<v t="leo.20200624103814.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624103814.6"><vh>w4</vh>
+<v t="leo.20200624103814.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624105505.1"><vh>6</vh>
+<v t="leo.20200624105505.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624111059.1"><vh>7</vh>
+<v t="leo.20200624111059.2"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624112302.1"><vh>8</vh>
+<v t="leo.20200624112302.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20200624112600.1"><vh>期中後</vh>
+<v t="leo.20200624112600.2"><vh>10</vh>
+<v t="leo.20200624112600.3"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624112600.4"><vh>11</vh>
+<v t="leo.20200624112600.5"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624112600.6"><vh>12</vh>
+<v t="leo.20200624112600.7"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624112600.8"><vh>13</vh>
+<v t="leo.20200624112600.9"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624112600.10"><vh>14</vh>
+<v t="leo.20200624112600.11"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624112600.12"><vh>15</vh>
+<v t="leo.20200624112600.13"><vh>內容</vh></v>
+</v>
+<v t="leo.20200624114128.1"><vh>16</vh>
+<v t="leo.20200624114128.2"><vh>內容</vh></v>
+</v>
+</v>
+<v t="leo.20180902120523.11"><vh>快捷鍵</vh>
 <v t="leo.20180902120523.12"><vh>投影片快捷鍵</vh></v>
 </v>
 <v t="leo.20180902120523.13"><vh>各式內容引用範例</vh>
-<v t="leo.20180902120523.14" a="E"><vh>導入數學符號與方程式</vh>
+<v t="leo.20180902120523.14"><vh>導入數學符號與方程式</vh>
 <v t="leo.20180902120523.15"><vh>LaTeX 格式方程式</vh></v>
 </v>
-<v t="leo.20180902120523.16" a="E"><vh>導入縮排程式碼</vh>
+<v t="leo.20180902120523.16"><vh>導入縮排程式碼</vh>
 <v t="leo.20180902120523.17"><vh>引用程式碼</vh></v>
 </v>
-<v t="leo.20180902120523.18" a="E"><vh>導入影片</vh>
+<v t="leo.20180902120523.18"><vh>導入影片</vh>
 <v t="leo.20180902120523.19"><vh>iframe 導入影片</vh></v>
 </v>
 </v>
@@ -48,18 +91,6 @@
 </vnodes>
 <tnodes>
 <t tx="leo.20180902120523.1"></t>
-<t tx="leo.20180902120523.10">## CMSimfly 網際內容管理
-
-### KMOLab
-
-&lt;small&gt;
-Created by [KMOLab](http://lab.kmol.info/)
-&lt;/small&gt;
-
-[CMSimfly 網誌](./../blog/index.html)
-
-
-</t>
 <t tx="leo.20180902120523.11">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -241,15 +272,6 @@ CMSimfly 網際內容管理
 &lt;/div&gt;
 
 </t>
-<t tx="leo.20180902120523.9">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
 <t tx="leo.20180902120538.1"></t>
 <t tx="leo.20180902120538.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -326,5 +348,241 @@ QLineEdit#editorLabel {
 }</t>
 <t tx="leo.20180902120538.3">horizontal: body pane to the left
 vertical: body pane on the botton</t>
+<t tx="leo.20200624092011.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624092011.2">## 協同產品設計實習
+
+### CD2020
+
+&lt;hr&gt;
+&lt;small&gt; Created by 40723102</t>
+<t tx="leo.20200624094226.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624094226.3">#### 40723102
+
+&lt;hr&gt;
+
+[Site](https://github.com/s40723102/cd2020)
+
+[Repository](https://s40723102.github.io/cd2020/content/index.html)</t>
+<t tx="leo.20200624103814.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200624103814.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624103814.3">## 期中考前(W1~W8)
+
+### W1
+
+#### 創建倉儲[CD2020](https://github.com/s40723102/cd2020)
+
+#### 創建[CD2020](https://github.com/s40723102/cd2020)</t>
+<t tx="leo.20200624103814.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624103814.5">### W2
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week2.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200624103814.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624103814.7">### W4
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week4.html" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200624105505.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624105505.2">### W6
+
+#### [OBS操作](https://s40723102.github.io/cd2020/content/week6.html)
+&lt;img src="https://s40723102.github.io/cd2020/images/chrome_cgsjPnKZyO.png" width="800" height="400"&gt;&lt;/a&gt;
+</t>
+<t tx="leo.20200624111059.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624111059.2">### W7
+
+&lt;small&gt;
+[抽點直播](https://s40723102.github.io/cd2020/content/week7.html)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/RjKGg4UmJ5A" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200624112302.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624112302.2">### W8
+
+&lt;small&gt;
+ [學員幸運到不行抽點直播](https://s40723102.github.io/cd2020/content/week8.html)
+
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/8DTUB7BePRk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200624112600.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20200624112600.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624112600.11">### W14
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week14.html" width="1110" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+</t>
+<t tx="leo.20200624112600.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624112600.13">### W15
+
+[Onshape](https://cad.onshape.com/documents/4ef89cf7cd79611d391b6501/w/749b4f8a14e83b13dc5a7c52/e/ece1fdcd3b797f692130fe41)
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week15.html" width="1100" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
+<t tx="leo.20200624112600.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624112600.3">## 期中後(W10~W17)
+
+
+### W10
+
+&lt;img src="https://s40723102.github.io/cd2020/images/chrome_lkeZWt1iNQ.png" width="800" height="390"&gt;&lt;/a&gt;</t>
+<t tx="leo.20200624112600.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+&lt;!-- 請注意, @others 不可以內縮 --&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+
+						
+</t>
+<t tx="leo.20200624112600.5">### W11
+
+[Onshape](https://cad.onshape.com/documents/4ef89cf7cd79611d391b6501/w/749b4f8a14e83b13dc5a7c52/e/ece1fdcd3b797f692130fe41)
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week11.html" width="1100" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200624112600.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624112600.7">### W12
+
+
+ [w12](https://s40723102.github.io/cd2020/content/week12.html)
+
+
+&lt;img src="https://s40723102.github.io/cd2020/images/VirtualBox_BeVsc0jcpu.png" width="800" height="390"&gt;&lt;/a&gt;</t>
+<t tx="leo.20200624112600.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624112600.9">### W13
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week13.html" width="1110" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+</t>
+<t tx="leo.20200624114128.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20200624114128.2">### W16
+
+[Onshape](https://cad.onshape.com/documents/c1d969463966145099929c52/w/e717aa75fbaa8603a5217477/e/36f3f1c4e337ca617ce87c91)
+
+&lt;iframe src="https://s40723102.github.io/cd2020/content/week16.html" width="1100" height="500" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;</t>
 </tnodes>
 </leo_file>
