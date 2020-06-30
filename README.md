@@ -4,6 +4,8 @@
 
 個人網站:https://s40723102.github.io/cd2020/content/index.html
 
+reveal:https://s40723102.github.io/cd2020/reveal/index.html#/
+
 cd20204ag4
 
 分組倉儲:https://github.com/s40723138/cd2020ag4
