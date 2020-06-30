@@ -154,15 +154,73 @@ img.add_border {
           </div>
           
         </header>
-    <div id="tipue_search_content">week15 << <a href='week15.html'>Previous</a> <a href='week17期末.html'>Next</a> >> week17期末<br /><h1>week16</h1>
-<p><strong><span>cd2020ag4行走車組合圖</span></strong></p>
-<p><span>網址:</span></p>
-<p><span style="color: #3366ff;"><a href="https://cad.onshape.com/documents/c1d969463966145099929c52/w/e717aa75fbaa8603a5217477/e/36f3f1c4e337ca617ce87c91" style="color: #3366ff;">https://cad.onshape.com/documents/c1d969463966145099929c52/w/e717aa75fbaa8603a5217477/e/36f3f1c4e337ca617ce87c91</a></span></p>
-<p><strong><span style="color: #ff0000;">等角視圖</span></strong></p>
-<p><img alt="" height="463" src="./../images/chrome_yiI8d99sMp.png" width="1000"/></p>
-<p><strong><span style="color: #ff0000;">正視圖</span></strong></p>
-<p><img alt="" height="463" src="./../images/chrome_af3axOTjUs.png" width="1000"/></p>
-<br />week15 << <a href='week15.html'>Previous</a> <a href='week17期末.html'>Next</a> >> week17期末</div>
+    <div id="tipue_search_content">week17期末 << <a href='week17期末.html'>Previous</a> <a href='直播記錄.html'>Next</a> >> 直播記錄<br /><h1>Ubuntu虛擬主機</h1>
+<p>VirtualBox</p>
+<p>資訊參考來源40723150<a href="https://s40723150.github.io/cd2020/content/VirtualBox.html">https://s40723150.github.io/cd2020/content/VirtualBox.html</a></p>
+<p></p>
+<ul>
+<li>
+<p><span>IP 查詢</span></p>
+<strong><em>ifconfig</em></strong>
+<p>如果跳出尚未安裝net-tools的話請安裝<br/><span></span></p>
+<div>
+<div class="syntaxhighlighter html" id="highlighter_731886"></div>
+</div>
+<strong><em>sudo apt install net-tools</em></strong>
+<p>如果在<strong>IPv6</strong>環境下有跳出網路錯誤</p>
+<span>1.IPv6環境設定是否正確</span><br/><br/><span>到/etc/netplan 目錄下檢查 00-installer-config.yaml 檔案內的設定</span><span></span>
+<div class="line number1 index0 alt2"><code class="html plain"></code></div>
+<div class="line number1 index0 alt2"><code class="html plain"></code></div>
+<em><code class="html plain"></code></em>
+<div class="line number1 index0 alt2"><strong><em><code class="html plain">1.cd /etc/netplan</code></em></strong></div>
+<div class="line number2 index1 alt1"><strong><em><code class="html plain">2.sudo vi 00-installer-config.yaml</code></em></strong></div>
+<div class="line number2 index1 alt1"><strong><em><code class="html plain"></code></em></strong><strong><code class="html plain"> 00-installer-config.yaml(<span>按照格式打<span></span></span>)</code></strong></div>
+</li>
+</ul>
+<table border="0" cellpadding="0" cellspacing="0">
+<tbody>
+<tr>
+<td class="gutter">
+<div class="line number1 index0 alt2">1</div>
+<div class="line number2 index1 alt1">2</div>
+<div class="line number3 index2 alt2">3</div>
+<div class="line number4 index3 alt1">4</div>
+<div class="line number5 index4 alt2">5</div>
+<div class="line number6 index5 alt1">6</div>
+<div class="line number7 index6 alt2">7</div>
+<div class="line number8 index7 alt1">8</div>
+<div class="line number9 index8 alt2">9</div>
+<div class="line number10 index9 alt1">10</div>
+</td>
+<td class="code">
+<div class="container">
+<div class="line number1 index0 alt2"><code class="html plain"># This is the network config written by 'subiquity'</code></div>
+<div class="line number2 index1 alt1"><code class="html plain">network:</code></div>
+<div class="line number3 index2 alt2"><code class="html spaces">    </code><code class="html plain">ethernets:</code></div>
+<div class="line number4 index3 alt1"><code class="html spaces">        </code><code class="html plain">enpes3:</code></div>
+<div class="line number5 index4 alt2"><code class="html spaces">            </code><code class="html plain">dhcp4: true</code></div>
+<div class="line number6 index5 alt1"><code class="html spaces">            </code><code class="html plain">dhcp6: true</code></div>
+<div class="line number7 index6 alt2"><code class="html spaces">            </code><code class="html plain">nameservers:</code></div>
+<div class="line number8 index7 alt1"><code class="html spaces">                </code><code class="html plain">addresses:</code></div>
+<div class="line number9 index8 alt2"><code class="html spaces">                    </code><code class="html plain">- 2001:b000:168::1</code></div>
+<div class="line number10 index9 alt1"><code class="html spaces">    </code><code class="html plain">version: 2</code></div>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="line number1 index0 alt2"></div>
+<ul>
+<li class="line number1 index0 alt2"><code class="html plain"><span>編輯完成後:wq跳出編輯並儲存，更新netplan設定</span></code>
+<p><strong><em>sudo netplan apply</em></strong></p>
+</li>
+<li class="line number1 index0 alt2"><code class="html plain"><span>proxy問題<br/><span>到 /etc/apt/apt.conf.d 目錄下檢查是否有proxy.conf檔案，若沒有，請用新增</span></span></code><code class="html plain"><span><span></span></span></code><strong><em><code class="html plain">cd /etc/apt/apt.conf.d<br/>sudo vi proxy.conf</code></em></strong></li>
+<li class="line number1 index0 alt2"><code class="html plain"><span><span>proxy.conf檔案的內容</span></span></code>
+<p><strong><em><code class="html plain">Acquire::http::proxy "http://[2001:288:6004:17::填port號]:3128";</code></em></strong></p>
+</li>
+<li class="line number1 index0 alt2"><code class="html plain"><span>更新apt</span></code><code class="html plain"><span></span></code><strong><em><code class="html plain">sudo apt update</code></em></strong></li>
+<li class="line number1 index0 alt2"><span face="monospace">完成即可啟動wsgi.py</span></li>
+</ul><br />week17期末 << <a href='week17期末.html'>Previous</a> <a href='直播記錄.html'>Next</a> >> 直播記錄</div>
         
     <!-- footer -->
       <div class="container">
