@@ -157,24 +157,23 @@ img.add_border {
     <div id="tipue_search_content">week17期末 << <a href='week17期末.html'>Previous</a> <a href='直播記錄.html'>Next</a> >> 直播記錄<br /><h1>Ubuntu虛擬主機</h1>
 <p>VirtualBox</p>
 <p>資訊參考來源40723150<a href="https://s40723150.github.io/cd2020/content/VirtualBox.html">https://s40723150.github.io/cd2020/content/VirtualBox.html</a></p>
-<p></p>
 <ul>
 <li>
-<p><span>IP 查詢</span></p>
-<strong><em>ifconfig</em></strong>
-<p>如果跳出尚未安裝net-tools的話請安裝<br/><span></span></p>
-<div>
-<div class="syntaxhighlighter html" id="highlighter_731886"></div>
-</div>
-<strong><em>sudo apt install net-tools</em></strong>
-<p>如果在<strong>IPv6</strong>環境下有跳出網路錯誤</p>
-<span>1.IPv6環境設定是否正確</span><br/><br/><span>到/etc/netplan 目錄下檢查 00-installer-config.yaml 檔案內的設定</span><span></span>
-<div class="line number1 index0 alt2"><code class="html plain"></code></div>
-<div class="line number1 index0 alt2"><code class="html plain"></code></div>
-<em><code class="html plain"></code></em>
-<div class="line number1 index0 alt2"><strong><em><code class="html plain">1.cd /etc/netplan</code></em></strong></div>
-<div class="line number2 index1 alt1"><strong><em><code class="html plain">2.sudo vi 00-installer-config.yaml</code></em></strong></div>
-<div class="line number2 index1 alt1"><strong><em><code class="html plain"></code></em></strong><strong><code class="html plain"> 00-installer-config.yaml(<span>按照格式打<span></span></span>)</code></strong></div>
+<p><span style="color: #000000;">IP 查詢</span></p>
+</li>
+<li>
+<p><span style="color: #000000;"></span><strong><em>ifconfig</em></strong></p>
+<p><span style="color: #000000;">如果跳出尚未安裝net-tools的話請安裝</span></p>
+</li>
+<li>
+<p><span style="color: #000000;"></span><strong><em>sudo apt install net-tools</em></strong></p>
+<span style="color: #000000;"><strong><em>如果在<strong>IPv6</strong>環境下有跳出網路錯誤<br/></em></strong></span><span style="color: #000000;">1.IPv6環境設定是否正確</span><br/><br/><span style="color: #000000;">到/etc/netplan 目錄下檢查 00-installer-config.yaml 檔案內的設定</span>
+<div class="line number1 index0 alt2"><span style="color: #000000;"><code class="html plain"></code></span></div>
+<div class="line number1 index0 alt2"><span style="color: #000000;"><code class="html plain"></code></span></div>
+<span style="color: #000000;"><em><code class="html plain"></code></em></span>
+<div class="line number1 index0 alt2"><span style="color: #000000;"><strong><em><code class="html plain">1.cd /etc/netplan</code></em></strong></span></div>
+<div class="line number2 index1 alt1"><span style="color: #000000;"><strong><em><code class="html plain">2.sudo vi 00-installer-config.yaml</code></em></strong></span></div>
+<div class="line number2 index1 alt1"><span style="color: #000000;"><strong><em><code class="html plain"></code></em></strong><strong><code class="html plain"> 00-installer-config.yaml(按照格式打)</code></strong></span></div>
 </li>
 </ul>
 <table border="0" cellpadding="0" cellspacing="0">
@@ -211,15 +210,15 @@ img.add_border {
 </table>
 <div class="line number1 index0 alt2"></div>
 <ul>
-<li class="line number1 index0 alt2"><code class="html plain"><span>編輯完成後:wq跳出編輯並儲存，更新netplan設定</span></code>
-<p><strong><em>sudo netplan apply</em></strong></p>
+<li class="line number1 index0 alt2"><span style="color: #000000;"><code class="html plain">編輯完成後:wq跳出編輯並儲存，更新netplan設定</code></span>
+<p><span style="color: #000000;"><strong><em>sudo netplan apply</em></strong></span></p>
 </li>
-<li class="line number1 index0 alt2"><code class="html plain"><span>proxy問題<br/><span>到 /etc/apt/apt.conf.d 目錄下檢查是否有proxy.conf檔案，若沒有，請用新增</span></span></code><code class="html plain"><span><span></span></span></code><strong><em><code class="html plain">cd /etc/apt/apt.conf.d<br/>sudo vi proxy.conf</code></em></strong></li>
-<li class="line number1 index0 alt2"><code class="html plain"><span><span>proxy.conf檔案的內容</span></span></code>
-<p><strong><em><code class="html plain">Acquire::http::proxy "http://[2001:288:6004:17::填port號]:3128";</code></em></strong></p>
+<li class="line number1 index0 alt2"><span style="color: #000000;"><code class="html plain">proxy問題<br/>到 /etc/apt/apt.conf.d 目錄下檢查是否有proxy.conf檔案，若沒有，請用新增</code><code class="html plain"></code><strong><em><code class="html plain">cd /etc/apt/apt.conf.d<br/>sudo vi proxy.conf</code></em></strong></span></li>
+<li class="line number1 index0 alt2"><span style="color: #000000;"><code class="html plain">proxy.conf檔案的內容</code></span>
+<p><span style="color: #000000;"><strong><em><code class="html plain">Acquire::http::proxy "http://[2001:288:6004:17::填port號]:3128";</code></em></strong></span></p>
 </li>
-<li class="line number1 index0 alt2"><code class="html plain"><span>更新apt</span></code><code class="html plain"><span></span></code><strong><em><code class="html plain">sudo apt update</code></em></strong></li>
-<li class="line number1 index0 alt2"><span face="monospace">完成即可啟動wsgi.py</span></li>
+<li class="line number1 index0 alt2"><span style="color: #000000;"><code class="html plain">更新apt</code><code class="html plain"></code><strong><em><code class="html plain">sudo apt update</code></em></strong></span></li>
+<li class="line number1 index0 alt2"><span face="monospace" style="color: #000000;">完成即可啟動wsgi.py</span></li>
 </ul><br />week17期末 << <a href='week17期末.html'>Previous</a> <a href='直播記錄.html'>Next</a> >> 直播記錄</div>
         
     <!-- footer -->
